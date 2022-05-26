@@ -1,0 +1,34 @@
+@model List<Dotnet_Core_Mvc_Code.Modules.Turler>
+@{
+    ViewData["Title"] = "Turler";
+}
+
+<h1>Turler</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+
+      <th scope="col">Kitap Turu ID</th>
+      <th scope="col">Kitap Adı</th>
+      <th scope="col">Yapılacak İşlem</th>
+      <th> <a class="btn btn-sm btn-success" asp-action="Create">Yeni Kitap Türü Ekle EKle</a></th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var tur in Model)
+      {
+          <tr>
+      <td>@tur.Id</td>
+      <td>@tur.TurAd</td>
+      <td>
+          <a class="btn btn-sm btn-info" asp-action="Details" asp-route-Id="@tur.Id">Detay</a>
+          <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-Id="@tur.Id">Düzenle</a>
+          <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-Id="@tur.Id">Sil</a>
+      </td>
+    </tr>
+      }
+    
+  
+  </tbody>
+</table>

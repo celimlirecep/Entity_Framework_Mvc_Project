@@ -1,0 +1,16 @@
+@model  AspnetcoreMvc.Models.Turler
+@{
+    ViewData["Title"] = "Kitap Türleri Detay";
+}
+
+<h1>Kitap Türleri Detay</h1>
+
+<div class="d-flex justify-content-center">
+    <h4>Kitap türü</h4>
+    <h5>Tür Id:</h5>
+    <p>@Model.Id</p>
+    <h5>Kitap Türü:</h5>
+    <p>@Model.TurAd</p>
+</div>
+
+<a asp-action="Index"> Kitap Türleri Sayfasına Dön</a>

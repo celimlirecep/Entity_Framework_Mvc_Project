@@ -1,0 +1,34 @@
+@model List<Dotnet_Core_Mvc_Code.Modules.Yayinevleri>
+@{
+    ViewData["Title"] = "Yayınevleri";
+}
+<h1>Yayınevleri</h1>
+
+
+<table class="table">
+  <thead>
+    <tr>
+
+      <th scope="col">Yayınevleri ID</th>
+      <th scope="col">Yayınevi Adı</th>
+      <th scope="col">Yapılacak İşlem</th>
+      <th> <a class="btn btn-sm btn-success" asp-action="Create">Yeni Yayınevi EKle</a></th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var yayinevi in Model)
+      {
+          <tr>
+      <td>@yayinevi.Id</td>
+      <td>@yayinevi.Ad</td>
+      <td>
+          <a class="btn btn-sm btn-info" asp-action="Details" asp-route-Id="@yayinevi.Id">Detay</a>
+          <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-Id="@yayinevi.Id">Düzenle</a>
+          <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-Id="@yayinevi.Id">Sil</a>
+      </td>
+    </tr>
+      }
+    
+  
+  </tbody>
+</table>

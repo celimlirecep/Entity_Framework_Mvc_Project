@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Models",
+    "\\Modules",
+    "\\Views",
+    "\\Views\\Kitap",
+    "\\Views\\Odunc"
+  ],
+  "SelectedNode": "\\Views\\Kitap\\Create.cshtml",
+  "PreviewInSolutionExplorer": false
+}

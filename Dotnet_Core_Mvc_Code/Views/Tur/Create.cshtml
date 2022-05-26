@@ -1,0 +1,21 @@
+@model Dotnet_Core_Mvc_Code.Modules.Turler
+@{
+    ViewData["Title"] = "Create";
+}
+<h1>Yeni Kitap Türü Oluştuma</h1>
+<hr>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="TurAd" class="control-label" class="fs-2">Kitap Türü</label>
+                <input type="text" asp-for="TurAd" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-success">
+            </div>
+        </form>
+
+    </div>
+</div>

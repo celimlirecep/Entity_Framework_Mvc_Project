@@ -1,0 +1,29 @@
+@model Dotnet_Core_Mvc_Code.Modules.Uyeler
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Yayın Evi Detay</h1>
+<hr>
+<div class="card text-center">
+  <div class="card-header">
+    @Model.AdSoyad Uye Detayı
+  </div>
+  <div class="card-body">
+    
+    <p class="card-text">Adres: @Model.Cinsiyet</p>
+    <p class="card-text">Adres: @Model.DogumTarihi</p>
+    <p class="card-text">Adres: @Model.Tel</p>
+    <p class="card-text">Tel: @Model.Mail</p>
+    <p class="card-text">Tel: @Model.UyelikTarihi</p>
+    <p class="card-text">Tel: @Model.UyelikTipi</p>
+    <p class="card-text">Tel: @Model.Meslek</p>
+    <p class="card-text">Tel: @Model.TcNo</p>
+    <a asp-action="index" class="btn btn-primary">Geri Dön</a>
+  </div>
+  <div class="card-footer text-muted">
+    Daha Fazla Bilgi İçin...
+  </div>
+</div>
+
+

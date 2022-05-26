@@ -1,0 +1,31 @@
+@model Dotnet_Core_Mvc_Code.Modules.Uyeler
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Uye Silme</h1>
+<br>
+
+<div class="card text-center">
+  <div class="card-header">
+    @Model.AdSoyad Yayın Evi Detayı
+  </div>
+  <div class="card-body">
+    
+    <p class="card-text">Adres: @Model.Cinsiyet</p>
+    <p class="card-text">Adres: @Model.DogumTarihi</p>
+    <p class="card-text">Adres: @Model.Tel</p>
+    <p class="card-text">Tel: @Model.Mail</p>
+    <p class="card-text">Tel: @Model.UyelikTarihi</p>
+    <p class="card-text">Tel: @Model.UyelikTipi</p>
+    <p class="card-text">Tel: @Model.Meslek</p>
+    <p class="card-text">Tel: @Model.TcNo</p>
+    <a asp-action="index" class="btn btn-primary">Geri Dön</a>
+  </div>
+  <div class="card-footer text-muted">
+  <form asp-action="Delete">
+    <input type="hidden" asp-for="Id">
+    <input type="submit" class="btn btn-danger" value="Uye Sil">
+  </form>
+  </div>
+</div>

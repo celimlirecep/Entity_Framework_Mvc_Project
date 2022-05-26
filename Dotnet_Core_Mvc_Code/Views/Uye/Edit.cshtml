@@ -1,0 +1,60 @@
+@model Dotnet_Core_Mvc_Code.Modules.Uyeler
+@{
+    ViewData["Title"] = "Düzenleme";
+}
+<h1>Üye Kaydı Düzenleme</h1>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <form asp-action="Edit">
+                <div class="form-group d-flex justify-content-between">
+                    <div class="col-6">
+                        <label>Adı Soyadı</label>
+                        <label class="form-control" asp-for="AdSoyad">@Model.AdSoyad</label>
+                        <br>
+                        <label>Cinsiyet</label>
+                        <input class="form-control" type="text" asp-for="Cinsiyet">
+                        <br>
+                        <label>Dogum Tarihi</label>
+                        <input class="form-control" type="text" asp-for="DogumTarihi">
+                        <br>
+                        <label>Telefon Numarası</label>
+                        <input class="form-control" type="text" asp-for="Tel">
+                        <br>
+                        <label>Mail</label>
+                        <input class="form-control" type="text" asp-for="Mail">
+                        <br><label>Uyelik Tarihi</label>
+                        <input class="form-control" type="text" asp-for="UyelikTarihi">
+
+                    </div>
+                    <div class="col-6">
+
+                        <label>Uyelik Tipi</label>
+                        <input class="form-control" type="text" asp-for="UyelikTipi">
+                        <br>
+                        <label>Tc Kimlik Numarası</label>
+                        <input class="form-control" type="text" asp-for="TcNo">
+                        <br>
+                        <label>Meslek</label>
+                        <input class="form-control" type="text" asp-for="Meslek">
+                        <br>
+                        <label>Eğitim Durumu</label>
+                        <input class="form-control" type="text" asp-for="EgitimDurumu">
+                        <br>
+                        <label>Ceza Durumu</label>
+                        <input class="form-control" type="text" asp-for="CezaDurumu">
+                        <br>
+                        <div class="for-group text-center">
+                            <input type="submit" value="Yayınevi Kaydet" class="btn btn-primary">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+</div>

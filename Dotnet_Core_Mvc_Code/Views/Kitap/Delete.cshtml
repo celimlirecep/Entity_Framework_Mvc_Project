@@ -1,0 +1,29 @@
+@model Dotnet_Core_Mvc_Code.Modules.Kitaplar
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Kitap Kaydı Silme</h1>
+<hr>
+<div class="card text-center">
+  <div class="card-header">
+    Kitap  Detayı
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">@Model.Ad </h5>
+    <p class="card-text">ISBN: @Model.Isbn</p>
+    <p class="card-text">Sayfa Sayısı: @Model.SayfaSayisi</p>
+    <p class="card-text">Stok Sayısı: @Model.Stok</p>
+    <p class="card-text">Yazar: @Model.Yazar.AdSoyad</p>
+    <p class="card-text">Yayınevi: @Model.YayinEvi.Ad</p>
+    <p class="card-text">Türü: @Model.Tur.TurAd</p>
+    
+    <a asp-action="index"></a>
+  </div>
+  <div class="card-footer text-muted">
+    <form asp-action="Delete">
+      <input type="submit" class="btn btn-danger" value="Kitap Kaydı Sİl">
+    </form>
+  </div>
+</div>

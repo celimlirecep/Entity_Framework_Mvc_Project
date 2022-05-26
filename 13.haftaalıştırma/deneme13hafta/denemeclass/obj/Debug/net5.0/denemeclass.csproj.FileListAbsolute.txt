@@ -1,0 +1,15 @@
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\bin\Debug\net5.0\denemeclass.deps.json
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\bin\Debug\net5.0\denemeclass.runtimeconfig.json
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\bin\Debug\net5.0\denemeclass.runtimeconfig.dev.json
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\bin\Debug\net5.0\denemeclass.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\bin\Debug\net5.0\ref\denemeclass.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\bin\Debug\net5.0\denemeclass.pdb
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.csproj.AssemblyReference.cache
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.AssemblyInfoInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.AssemblyInfo.cs
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.csproj.CoreCompileInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\ref\denemeclass.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.pdb
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.haftaalıştırma\deneme13hafta\denemeclass\obj\Debug\net5.0\denemeclass.genruntimeconfig.cache

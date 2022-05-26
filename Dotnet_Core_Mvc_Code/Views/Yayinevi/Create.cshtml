@@ -1,0 +1,27 @@
+@model Dotnet_Core_Mvc_Code.Modules.Yayinevleri
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Yeni Yayınevi Oluştur</h1>
+<hr>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div class="form-group">
+                    <label >Yayınevi Adı</label>
+                <input type="text" asp-for="Ad" class="form-control">
+                <label >Yayınevi Adresi</label>
+                 <input type="text" asp-for="Adres" class="form-control">
+                <label >Yayınevi Teli</label>
+                 <input type="text" asp-for="Tel" class="form-control">
+                </div>
+                <div class="form-group">
+<input type="submit" class="btn btn-primary" value="Yeni Yayınevi Oluştur">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

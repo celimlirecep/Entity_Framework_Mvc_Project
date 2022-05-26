@@ -1,0 +1,32 @@
+@model Dotnet_Core_Mvc_Code.Modules.Yayinevleri
+@{
+    ViewData["Title"] = "Düzenleme";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Edit">
+                <div class="form-group">
+                    <label >ID</label>
+                    <label class="form-control" asp-for="Id">@Model.Id</label>
+                    <br>
+                    <label >Yayınevi Adı</label>
+                    <input class="form-control" type="text"asp-for="Ad" >
+                    <br>
+                    <label >Yayınevi Adres</label>
+                    <input class="form-control" type="text"asp-for="Adres" >
+                    <br>
+                    <label >Yayınevi Tel</label>
+                    <input class="form-control" type="text"asp-for="Tel" >
+                    <br>
+
+                </div>
+                <div class="for-group">
+                    <input type="submit" value="Yayınevi Kaydet" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>

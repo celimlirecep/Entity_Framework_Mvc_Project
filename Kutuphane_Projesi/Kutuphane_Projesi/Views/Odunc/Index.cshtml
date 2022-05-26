@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Kutuphane_Projesi.Models.Odunc>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="d-flex justify-content-start">
+    <a class="btn btn-info text-dark" asp-area="" asp-controller="Uyelers" asp-action="Index">Uyeler</a>
+
+    
+        <a class="btn btn-success" asp-action="Create">Create New</a>
+  
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.VerilisTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TeslimTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Iptal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KitapIsbnNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Uye)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VerilisTarihi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TeslimTarihi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Iptal)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.KitapIsbnNavigation.Ad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Uye.AdSoyad)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

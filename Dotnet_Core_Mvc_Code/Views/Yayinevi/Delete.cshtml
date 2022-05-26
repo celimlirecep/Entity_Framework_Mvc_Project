@@ -1,0 +1,25 @@
+@model Dotnet_Core_Mvc_Code.Modules.Yayinevleri
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Yayınevi Silme</h1>
+<br>
+
+<div class="card text-center">
+  <div class="card-header">
+    @Model.Ad Yayın Evi Detayı
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">@Model.Ad </h5>
+    <p class="card-text">Adres: @Model.Adres</p>
+    <p class="card-text">Tel: @Model.Tel</p>
+    <a asp-action="index" class="btn btn-primary">Geri Dön</a>
+  </div>
+  <div class="card-footer text-muted">
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id">
+        <input type="submit" class="btn btn-primary" value="Yayınevini Sil" >
+    </form>
+  </div>
+</div>

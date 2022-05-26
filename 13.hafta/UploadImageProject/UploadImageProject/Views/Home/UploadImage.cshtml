@@ -1,0 +1,51 @@
+﻿@model List<UploadImageProject.Models.UploadImageModel>
+@{ 
+    ViewData["Title"] = "Resim Listesi ve Yükleme";
+}
+
+@if (Model.Count>0)
+{
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>Resim</th>
+                <th>Resim Adı</th>
+                <th>Resim Boyutu</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var image in Model)
+            {
+                <tr>
+                    <th>
+                        <img src="/@image.FullName"  style="width:100px;"  />
+                    </th>
+                    <th>
+                        @image.FileName
+                    </th>
+                    <th>@image.Size (Kb)</th>
+                </tr>
+
+            }
+
+        </tbody>
+
+    </table>
+
+}
+
+<form asp-action="UploadImage" enctype="multipart/form-data">
+
+    <h3 class="text-center display-3">Resim yükle</h3>
+
+    <div class="form-group">
+        <label>Resim Yolu</label>
+        <input type="file" name="file"  />
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Yükle" />
+
+    </div>
+
+
+</form>

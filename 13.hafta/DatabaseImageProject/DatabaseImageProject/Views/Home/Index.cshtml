@@ -1,0 +1,48 @@
+﻿@model List<DatabaseImageProject.Models.Product>
+@{
+    ViewData["Title"] = "Product Sales Page";
+}
+
+@foreach (var product in Model)
+    {
+        <div class="card">
+            <div class="card-header">
+                <img src="/@product.ImageFullPath" style="width:100px; height:100px" />
+            </div>
+            <div class="card-body">
+                <h1>@product.ProductName</h1>
+                <h1>@product.ProductPrice</h1>
+            </div>
+
+        </div>
+
+    }
+
+<form asp-action="Create" enctype="multipart/form-data">
+    <h3>Create Product</h3>
+    <div class="form-group">
+        <label>Image Upload</label>
+        <input type="file" name="file" />
+
+    </div>
+    <div class="form-group">
+        <label>Product Name</label>
+        <input type="text" asp-for="ProductName" />
+    </div>
+    <div class="form-group">
+        <label>Product Price</label>
+        <input type="number" asp-for="ProductPrice" />
+
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" />
+
+    </div>
+
+
+</form>
+
+
+
+
+

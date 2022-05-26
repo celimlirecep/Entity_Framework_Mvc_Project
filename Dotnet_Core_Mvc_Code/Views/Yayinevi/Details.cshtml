@@ -1,0 +1,23 @@
+@model Dotnet_Core_Mvc_Code.Modules.Yayinevleri
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Yayın Evi Detay</h1>
+<hr>
+<div class="card text-center">
+  <div class="card-header">
+    @Model.Ad Yayın Evi Detayı
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">@Model.Ad </h5>
+    <p class="card-text">Adres: @Model.Adres</p>
+    <p class="card-text">Tel: @Model.Tel</p>
+    <a asp-action="index" class="btn btn-primary">Geri Dön</a>
+  </div>
+  <div class="card-footer text-muted">
+    Daha Fazla Bilgi İçin...
+  </div>
+</div>
+
+

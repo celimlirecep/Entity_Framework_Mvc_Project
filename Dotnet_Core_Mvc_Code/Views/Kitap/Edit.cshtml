@@ -1,0 +1,53 @@
+@model Dotnet_Core_Mvc_Code.Modules.Kitaplar
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h5>@Model.Ad -Kitap Düzenleme Sayfası</h5>
+<hr>
+
+<form asp-action="Edit">
+    <div class="container row">
+        <div class="col-md-5">
+            <div class="form-group">
+                <div>
+                    <label >Kitap Isbn</label>
+                  <input type="text" class="" asp-for="Isbn" class="form-control"> 
+                </div>
+                <div>
+                    <label>Ad</label>
+                      <input type="text" class="" asp-for="Ad" class="form-control"> 
+                </div>
+                <div>
+                    <label>Sayfa Sayısı</label>
+                    <input type="text" class="" asp-for="SayfaSayisi" class="form control">
+                </div>
+                <div>
+                    <label>Stok</label>
+                    <input type="text" class="" asp-for="Stok" class="control-label form-control">
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="col-md-5">
+            <div>
+                <label>Tur Ad</label>
+                <select asp-for="TurId" class="form-select" asp-items="ViewBag.Tur"></select>
+            </div>
+            <div>
+                <label>Yazar Adı</label>
+                <select asp-for="YazarId" class="form-select" asp-items="ViewBag.Yazar"></select>
+            </div>
+            <div>
+                <label>Yayınevi Adı</label>
+                <select asp-for="YayinEviId" class="form-select" asp-items="ViewBag.YayinEvi"></select>
+            </div>
+            <div class="form-group">
+              <button asp-action="Edit" type="Submit" class="btn btn-info">Değişikleri Kaydet</button>
+            </div>
+        </div>
+    </div>
+</form>

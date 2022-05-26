@@ -1,0 +1,32 @@
+@model List< AspnetcoreMvc.Models.Turler>
+@{
+    ViewData["Title"] = "Kitap Türleri";
+}
+
+<h1>Kitap Türleri</h1>
+
+<table class="table table-dark w-50">
+    <thead>
+        <tr>
+            <th>Kitap Türü ID</th>
+            <th>Kitap Türü</th>
+            <th>Yapılacak İslem</th>
+            
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var bolum in Model)
+        {
+            <tr>
+                <td>@bolum.Id</td>
+                <td>@bolum.TurAd</td>
+                <td>
+                    <a class="btn btn-sm btn-success" asp-action="Details" asp-route-id="@bolum.Id">Detaylar</a>
+                    <a class="btn btn-sm btn-warning" asp-action="Details" asp-route-id="@bolum.Id">Düzenle</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Details" asp-route-id="@bolum.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

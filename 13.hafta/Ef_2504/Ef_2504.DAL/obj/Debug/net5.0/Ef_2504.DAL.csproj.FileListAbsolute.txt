@@ -1,0 +1,15 @@
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\bin\Debug\net5.0\Ef_2504.DAL.deps.json
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\bin\Debug\net5.0\Ef_2504.DAL.runtimeconfig.json
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\bin\Debug\net5.0\Ef_2504.DAL.runtimeconfig.dev.json
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\bin\Debug\net5.0\Ef_2504.DAL.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\bin\Debug\net5.0\ref\Ef_2504.DAL.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\bin\Debug\net5.0\Ef_2504.DAL.pdb
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.csproj.AssemblyReference.cache
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.AssemblyInfoInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.AssemblyInfo.cs
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.csproj.CoreCompileInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\ref\Ef_2504.DAL.dll
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.pdb
+C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\13.hafta\Ef_2504\Ef_2504.DAL\obj\Debug\net5.0\Ef_2504.DAL.genruntimeconfig.cache
